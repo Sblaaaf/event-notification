@@ -1,11 +1,11 @@
-PROJET Microservice - Envoi de notifications mail (app evenements)
+PROJET Microservice - Envoi de notifications mail (middleware)
 
-Je suis dans le groupe 6 avec :
+Je suis (Renaud LOURGOUILLOUX) dans le groupe n°6 avec :
 
-Youssef
-Rémy (parti entre temps)
-Wessim
-Jihad
+- Youssef
+- Wessim
+- Jihad
+- Rémy (parti entre temps)
 
-Le projet initial est rendu par Wessim via un projet NextJS avec resend, je vous partage une version test commencée sur Java avec mailtrap.io.
-Ce n'est qu'une version test annexe pour m'entrainer. 
+Le projet initial est rendu par Wessim via un projet NextJS avec le SMTP Resend.com.
+Je vous partage une version test commencée sur Java avec mailtrap.io.
