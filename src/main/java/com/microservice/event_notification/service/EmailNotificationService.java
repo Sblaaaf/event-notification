@@ -30,11 +30,11 @@ public class EmailNotificationService implements NotificationService {
                 message.setSubject(subject);
                 message.setText("Bonjour " + user.getName() + ",\n\n" + messageBody);
 
-                // Pour l'instant, pour ne pas planter si pas de SMTP configuré, on log juste
+                // Si pas de SMTP configuré, on log juste
                 System.out.println("SIMULATION ENVOI MAIL à : " + user.getEmail() + " | Sujet: " + subject);
 
-                // Décommente la ligne suivante quand tu auras configuré ton SMTP (Gmail, Mailtrap)
-                // emailSender.send(message);
+                // SMTP (Gmail, Mailtrap) configuré
+                emailSender.send(message);
 
             } catch (Exception e) {
                 System.err.println("Erreur lors de l'envoi à " + user.getEmail());
